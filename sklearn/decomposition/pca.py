@@ -134,7 +134,7 @@ class PCA(_BasePCA):
         to guess the dimension
         if ``0 < n_components < 1`` and svd_solver == 'full', select the number
         of components such that the amount of variance that needs to be
-        explained is greater than the percentage specified by n_components
+        explained is greater than the percentage specified by n_components. 
         n_components cannot be equal to n_features for svd_solver == 'arpack'.
 
     copy : bool (default True)
